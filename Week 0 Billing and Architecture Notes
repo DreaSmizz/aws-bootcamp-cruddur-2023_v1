@@ -1,0 +1,88 @@
+Playlist:
+- https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv
+
+Project Scenario
+- Startup called Cruddur
+   - ephemeral first micro blogging app
+   - like twitter without dumpster fire, like snapchat - doesn't track you long term
+   - scale, process frequent transactions
+   - time limited content
+- Characters
+    Founder: Sam 
+    Boss: Tony = continuity and context
+    CTO: Aaron, Fractional CTO, spends time advising start ups and teaching, technical requirements and future state
+    investors: cost and timing
+    web dev group: current state
+- Short lived content should be really engaging
+- App tech:
+  - ABco - 6 months salary
+  - Fractional CTO
+- ORM - object relational mapping
+- Monolithic Application - all in one application, app stack in one place
+- Microservice Architecture - Decoupling all the components, making them reusable smaller parts, helps scale easily
+- Application Layers:
+  - User Interface
+  - Business Logic
+  - Data Access
+- Infrastructure cost as low as possible..cost efficient
+- Iron Triangle - model to where you can only have two of three things
+  - Scope (features, fuctionality)
+  - Cost (Budget, resources)
+  - Time (Schedule)
+ - Specs
+  - Front end: javascript using react
+  - Back end: Python using flask
+  - user content
+  - AWS
+    - what services? containers?
+    - set up budget monitoring
+  - technical report due for investors
+    - Architecture
+    - Budget
+    - Ongoing cost estimate
+    
+ Good Architecture:
+ - things project must achieve
+ - requirements must be:
+  - verifiable
+  - monitorable
+  - traceable
+  - **feasable**
+ - Addresses the risk, assumptions & constraints
+  - SPoFS - single points of failure - 99% uptime
+  - User commitment
+  - late delivery
+ - Assumptions are factors held as true for the planning & implementation phases
+ - Constraints are policy or technical limitations for the project
+  - time - 14 weeks
+  - budget - 0 - free tier
+ - Use information to create your design:
+  - conceptual design
+    - created by business stakeholders and architects
+    - organizes and defines concepts and rules
+    - 'napkin design'
+  - logical design
+    - defines how the system should be implemented
+    - evnironment without actual names or sizes
+    - example: undeployed CFT
+  - physical design
+    - white board
+
+- important to develop common dictionary
+  - ask dumb questions
+  - play be-the-packet
+    - pretend to be the end-user
+  - document everything
+  
+- TOGAF
+- Use the AWS Well-Architected Framework to review workloads against current AWS practices:
+  - workload
+  - asks the right questions to highlight blindspots
+  - naturally falls in the R/R/A/C bucket - requirements, risk, assumptions, constraints
+  
+- AWS Well-Architected Framework
+- Conceptual Design
+- Logical design
+
+- Homework:
+  - Check document
